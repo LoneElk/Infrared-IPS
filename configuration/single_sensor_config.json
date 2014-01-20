@@ -1,0 +1,46 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    5.15,
+                    0.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "connectionProperties": {
+                    "baud": 115200,
+                    "emulationFile": "/Users/jim/Dropbox/Documents/Msc/Thesis/A4/Infrared-IPS/location_sensors/sensor_emulator/rawData.json",
+                    "flush": true,
+                    "port": "/dev/tty.Node4-DevB",
+                    "timeOut": 0.1
+                },
+                "geomType": "sensor",
+                "name": "node4",
+                "positionProperties": {
+                    "heading": 1.5707963267948966,
+                    "level": 0,
+                    "positionReferenceFrame": "room",
+                    "referenceFrameName": "kitchen"
+                },
+                "sensorProperties": {
+					"arrayTranspose": true,
+                    "arrayCells": 64,
+                    "arrayCols": 16,
+                    "arrayRows": 4,
+                    "cvScale": 50,
+                    "fov": 1.0471975511965976,
+                    "range": 5
+                }
+            },
+            "type": "Feature"
+        }
+    ],
+    "properties": {
+        "name": "Sensor Configuration",
+        "refFloorPlan": "/Users/jim/Dropbox/Documents/Msc/Thesis/A4/Infrared-IPS/location_rules_engine/utilities/floor_plan/floorplan1.json",
+        "scale": 1
+    },
+    "type": "FeatureCollection"
+}
