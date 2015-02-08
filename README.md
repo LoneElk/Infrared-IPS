@@ -14,6 +14,22 @@ A small number of interviews have been completed with Health Care professionals 
 ![code structure](https://github.com/tS7hKamAYL84j91/Infrared-IPS/blob/master/CodeStructure.png)
 
 
+## Hardware Used
+
+- MLX90620 Thermopile Array
+- Arduino Uno
+- JYMCU Bluetooth Unit
+
+The Indoor Positioning System was written in Python using the opencv libaries for image processing.
+
+## [Thesis](https://github.com/tS7hKamAYL84j91/Infrared-IPS/blob/master/FPR_brownjames_09213656_v1.pdf)
+
+The thesis explains much of the theory behind the code and provides and overview of the class models and software patterns employed.
+
+
+
+
+
 
 
 
