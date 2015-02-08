@@ -11,6 +11,8 @@ A small number of interviews have been completed with Health Care professionals 
 
 ## Overview of Code Structure
 
+![code structure](https://github.com/tS7hKamAYL84j91/Infrared-IPS/blob/master/CodeStructure.png)
+
 
 
 
