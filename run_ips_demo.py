@@ -159,7 +159,8 @@ def run_ips_for_room(time_to_run, pres=100,
                 logging.debug('Processing loop: %s, time reaming %s', loop_counter, timeOut - time.time())
             if include_fusion_model:
                 fusion_model.visualise_measurements()
-                cv2.waitKey(1)
+
+            cv2.waitKey(1)
     except KeyboardInterrupt:
         logging.info('Force shutdown...')
 
@@ -206,6 +207,6 @@ def run_ips_for_room(time_to_run, pres=100,
 if __name__ == '__main__':
     log_format = '%(asctime)s - %(levelname)s - %(filename)s - %(message)s'
     logging.basicConfig(level=logging.INFO, format=log_format) #, filename=gc.logs + 'run_ips.log')
-    run_ips_for_room(60, num_particles=100,sensor_config_file=gc.sensor_config_file_dir + 'two_sensor_config.json',
+    run_ips_for_room(30, num_particles=100,sensor_config_file=gc.sensor_config_file_dir + 'two_sensor_config.json',
                      sensor_creation_mode=gc.SensorCreationMode.emulation,include_sensor_vis=True,
                      include_fusion_model=True,pres=50)

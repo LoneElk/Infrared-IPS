@@ -11,12 +11,13 @@ clicked = False
 tempResults = []
 
 try:
+    print 'starting sensor'
     logging.debug('Starting serial')
-    ser = serial.Serial('/dev/tty.Node1-DevB',115200,timeout=0.1)
-    tempfile = open('/Users/jim/Dropbox/Documents/Msc/Thesis/A4/Infrared-IPS/location_sensors/utilities/rawData-0901.json', 'w')
+    ser = serial.Serial('/dev/tty.Node4-DevB',115200,timeout=0.1)
+    tempfile = open('/Users/jim/Dropbox/Documents/Msc/Thesis/A4/Infrared-IPS/location_sensors/utilities/rawData-'+ str(time.time()) + '.json', 'w')
 
-    timeOut = time.time() +  2*60
-    
+    timeOut = time.time() +  10
+    print 'processing lines'
     while time.time() < timeOut:
         try:
             
@@ -30,7 +31,7 @@ try:
         except:
             print 'another error'
     
-    
+    print 'closing'
 except KeyboardInterrupt:
     print 'Terminating serial early'
 

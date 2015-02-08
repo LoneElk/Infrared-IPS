@@ -1,2 +1,6 @@
 *.pyc
 logs/
+.idea/
+.idea/Infrared-IPS.iml
+
+.idea/workspace.xml

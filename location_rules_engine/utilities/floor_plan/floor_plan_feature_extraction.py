@@ -106,7 +106,7 @@ for key,room in rooms.items():
 
 #map_objects = {'scale':SCALE,'floors':[{'floor':'ground_floor','rooms':rooms,'walls':walls}]}
 #print map_objects
-temp_file = open('/Users/jim/Dropbox/Documents/Msc/Thesis/A4/Infrared-IPS/configuration/floorplan1.json','wb')
+temp_file = open('/Users/jim/Dropbox/Documents/Msc/Thesis/A4/Infrared-IPS/configuration/floorplan_demo.json','wb')
 json.dump(map_objects,temp_file)
 temp_file.close()
 
