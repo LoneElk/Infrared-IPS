@@ -1,5 +1,5 @@
-# Infrared-IPS
-## Prototype Infrared Positioning System using MLX90620 Thermopile Array
+# Infrared Indoor Positioning System
+## Prototype Indoor Positioning System using MLX90620 Thermopile Array
 
 **Based on my Msc Thesis 2014**
 
